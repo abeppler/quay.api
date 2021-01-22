@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Enums\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hbsis.Wms.Infra.Domain" Version="0.3.5" />
+    <PackageReference Include="Hbsis.Wms.Infra.RabbitMq" Version="0.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Wms.ProductionLine.CrossCutting\Wms.ProductionLine.CrossCutting.csproj" />
+    <ProjectReference Include="..\Wms.ProductionLine.Globalization\Wms.ProductionLine.Globalization.csproj" />
+  </ItemGroup>
+
+</Project>

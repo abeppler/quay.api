@@ -1,0 +1,5 @@
+﻿{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost\\SQLEXPRESS;Database=Wms.ProductionLine;User Id=sa;Password=sa;MultipleActiveResultSets=true"
+  }
+}
